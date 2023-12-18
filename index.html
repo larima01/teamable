@@ -11,13 +11,13 @@
     <div id="main-container">
         <h1>User profile</h1>
         <img src="image/rabbit.jpg" alt="">
-        <span>Name: </span> <b>Aminu Lukmon</b>
+        <span>Name: </span> <b id="name">Aminu Lukmon</b>
         <hr />
     
-        <span>Email: </span> <b>lukasaminu@gmail.com</b>
+        <span>Email: </span> <b id="email">lukasaminu@gmail.com</b>
         <hr />
     
-        <span>Interests: </span> <b>Codin</b>
+        <span>Interests: </span> <b id="interests">Coding</b>
         <hr />
         <button onclick="handleEditProfile()">Edit Profile</button>
     </div>
@@ -25,15 +25,15 @@
         <h1>Update profile</h1>
         <img src="image/rabbit.jpg" alt="">
         <span>Name: </span> 
-        <input type="text" placeholder="Aminu Lukmon" />
+        <input type="text" id="input-name" placeholder="Aminu Lukmon" />
         <hr />
     
         <span>Email: </span> 
-        <input type="text" placeholder="lukasaminu@gmail.com" />
+        <input type="text" id="input-email" placeholder="lukasaminu@gmail.com" />
         <hr />
     
         <span>Interests: </span> 
-        <input type="text" placeholder="Coding" />
+        <input type="text" id="input-interests" placeholder="Coding" />
         <hr />
         <button onclick="handleUpdateProfile()">Update Profile</button>
     </div>
