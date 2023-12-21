@@ -30,6 +30,11 @@ button:hover{
     
 }
 
+.datepicker{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 #edit-view{
     margin: 40px auto;
     width: 80%;
