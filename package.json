@@ -1,6 +1,16 @@
 {
+  "name": "my_vue-app",
+  "version": "0.1.0",
   "dependencies": {
     "Datepicker.js": "^0.1.1",
-    "validator": "^13.11.0"
+    "validator": "^13.11.0",
+      "vue": "3.2.40",
+      "core-js": "3.34.0",
+      "@vue/compiler-sfc": "3.3.13",
+      "@vue/cli-service": "5.0.8"
+      
+  },
+  "scripts": {
+      "serve": "vue-cli-service serve"
   }
 }
